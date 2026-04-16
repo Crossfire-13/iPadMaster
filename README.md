@@ -8,6 +8,9 @@ Modern smartphones (like the Google Pixel 4XL) capture media in formats that leg
 *   **The "50-Photo Sync Wall"**: iTunes often stops syncing after 50 items due to hardware indexing timeouts.
 
 ### How it works
+
+Run this in your photos folder in the CMD for optimal operation.
+
 This Python tool "pre-optimizes" your entire library specifically for **iOS 9.3.5** hardware:
 1.  **Smart Batching**: Splits media into groups of 45 to bypass iTunes timeout limits.
 2.  **Legacy Encoding**: Forces videos into **H.264 Baseline Level 3.0** with **YUV420P** color space (the only format guaranteed to work).
